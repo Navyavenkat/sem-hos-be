@@ -3,7 +3,6 @@ const express = require('express')
 const app = express()
 const PORT = 3500
 const patientsRouter = require('./routes/patientsRouter')
-// const validatePatientsRouter = require('./routes/validatePatientsRouter')
 const validatePatientsRouter=require('./routes/validatePatientsRouter')
 const cors = require('cors')
 const mongoose = require('mongoose')
